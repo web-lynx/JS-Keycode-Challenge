@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top right, #42C0ED, #8254A2 ), no-repeat;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.item {
+    min-width: 20em;
+    text-align: center;
+}
